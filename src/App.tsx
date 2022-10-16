@@ -23,7 +23,17 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div>
-        <h1>Apollo Client</h1>
+        <h1>kissa q</h1>
+        <p>kissa qへようこそ。眠る前にコーヒーの話をしていきませんか。</p>
+      </div>
+      <div>
+        <ul>
+          <li>記事１</li>
+          <li>記事２</li>
+          <li>記事３</li>
+          <li>記事４</li>
+          <li>記事５</li>
+        </ul>
       </div>
     </ApolloProvider>
   );
